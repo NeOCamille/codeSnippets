@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.ull {
+
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+  padding: 0;
+  margin: 0;
+}
+
+.topbar {
+  position: fixed;
+  width: 100%;
+  height: 10%;
+
+}
+
+.lii {
+display: table;
+width: 33%;
+height: 100%;
+text-align: center;
+border-left: 1px solid black;
+float: left;
+}
+
+.aa {
+ display: table-cell;
+ vertical-align: middle;
+ height: 100%;
+ 
+}
+
+.content {
+  height: 800px;
+}
+.barwrapper {
+  height: 10%;
+}
+
+
+.footer {
+  background-color: blue;
+  opacity: 0.5;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+}
